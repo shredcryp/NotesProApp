@@ -18,10 +18,12 @@ function MyNotes() {
             {
                 notes.map(note => (
                     <div className="eachnote">
-                        
+
                         <div className="content">
-                        <h2>{note.title}</h2>
+                            <h2>{note.title}</h2>
+                            <h5>{note.category}</h5>
                             <p>{note.content}</p>
+                            <h6 style={{color:"grey"}}>Created on - Date</h6>
                         </div>
                         <div className="changebuttons">
                             <button href={`/notes/${note._id}`} className="editbtn">Edit</button>
