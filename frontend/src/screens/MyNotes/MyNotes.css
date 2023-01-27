@@ -1,0 +1,47 @@
+.newnote button {
+    width: 250px;
+    height: 50px;
+    background: #2c87f0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+}
+
+.eachnote {
+    margin-top: 10px;
+    padding: 30px;
+    width: 70%;
+    height: 80px;
+    background: #212121;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editbtn {
+    width: 100px;
+    height: 50px;
+    background: #2c87f0;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.7rem;
+    align-items: center;
+    font-weight: bold;
+}
+
+.deletebtn {
+    width: 100px;
+    height: 50px;
+    background: rgb(255, 47, 47);
+    border-radius: 10px;
+    color: white;
+    font-size: 1.7rem;
+    align-items: center;
+    font-weight: bold
+}
+
+.content {
+    width: 30%;
+}

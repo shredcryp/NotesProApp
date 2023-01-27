@@ -1,0 +1,43 @@
+.textpart {
+    width: 100%;
+    justify-content: center;
+}
+
+.textpart h1 {
+    text-align: center;
+    font-size: 7rem;
+    font-weight: normal;
+}
+
+.textpart h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.textpart {
+    text-align: center;
+}
+
+.textpart button {
+    width: 150px;
+    height: 50px;
+    background: #2c87f0;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.textpart .signupbtn {
+    background: white;
+    color: black;
+}
+
+.signupbtn:hover {
+    background: pink;
+}
+
+.textpart button:hover {
+    background: pink;
+    color: black;
+}
